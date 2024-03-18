@@ -1,0 +1,10 @@
+Zadanie 2. Aukcje internetowe 
+
+Wykorzystując notację BPMN zamodeluj proces przeprowadzenia aukcji internetowej. 
+
+Uczestnicy procesu 1. osoba wystawiająca przedmiot – sprzedawca 2. osoby licytujące – oferenci – w tym jeden nabywca 3. serwis aukcyjny 
+
+Opis procesu
+Osoba (nazywana dalej sprzedawcą) chce sprzedać przedmiot na aukcji internetowej. W tym celu wysyła do serwisu aukcyjnego żądanie utworzenia nowej aukcji dla przedmiotu, który ma zostać sprzedany (zakładamy, że zarówno sprzedawca, jak i oferenci, założyli już wcześniej konta w serwisie aukcyjnym). Pracownicy serwisu weryfikują, czy sprzedawany przedmiot spełnia kryteria, jakim serwis aukcyjny posługuje się przy definiowaniu aukcji. Jeśli tak jest, aukcja zostaje utworzona. W przeciwnym wypadku sprzedawca otrzymuje informację o odrzuceniu żądania utworzenia aukcji. Utworzona aukcja zostaje rozpoczęta w terminie zdefiniowanym przez sprzedawcę i trwa zdefiniowany przez niego czas. W trakcie trwania aukcji oferenci przesyłają do serwisu aukcyjnego swoje propozycje cen (oferty) za wystawiony na aukcji przedmiot. Jedna osoba może przesłać wiele ofert, starając się przebić propozycje ewentualnych rywali. Po upłynięciu zdefiniowanego przez sprzedawcę czasu aukcja zostaje zamknięta. Jeśli nie wpłynęły żadne oferty, wówczas sprzedawca otrzymuje informację o niepomyślnym zakończeniu aukcji i cały proces ulega zakończeniu. W przeciwnym wypadku serwis aukcyjny przesyła sprzedawcy informację o najwyższej wylicytowanej kwocie a osoba, która tą kwotę wylicytowała, otrzymuje wiadomość o wygraniu aukcji. Pozostali uczestnicy aukcji otrzymują wiadomości o przegraniu licytacji. Następnie nabywca reguluje sprzedawcy kwotę za produkt, po otrzymaniu pieniędzy sprzedawca przesyła nabywcy wylicytowany produkt. Jeśli sprzedawca nie doczeka się zapłaty od nabywcy, wówczas anuluje aukcję i wystawia negatywny komentarz nabywcy. Jeśli nabywca nie otrzyma produktu za wylicytowany i opłacony produkt, zawiadamia organy ścigania i wystawia negatywny komentarz. Jeśli obie strony są zadowolone z transakcji, wystawiają sobie wzajemnie komentarze pozytywne.
+
+
